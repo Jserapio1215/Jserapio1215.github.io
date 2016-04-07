@@ -1,7 +1,7 @@
 /*body*/
 
 body {
-	background: #EDEEDB;
+	background: #FEFFF5;
 	text-align: center;
 	font-family: 'Great Vibes', cursive;
 	font-size: 25px;
@@ -21,11 +21,84 @@ img {
 	height: 500px;
 }
 
+/*bridesmaids*/
+.bridesmaids {
+	color: white;
+	text-align: center;
+}
+h3 {
+	text-decoration: underline;
+}
+.bride_text {
+	border: 1px solid (224, 224, 224);
+	width: 450px;
+	height: 30%;
+	color: white;
+	/*background-color: rgba(224, 224, 224, .3);*/
+	text-align: left;
+	padding-left: 10px;
+}
+.erica {
+	background: url("../images/erica.JPG");
+	margin: 0 auto;
+	width: 80%;
+	height: 800px;
+	background-size: cover;
+	border-top: 5px solid #AFAFAC;
+	/*border-bottom: 5px solid #AFAFAC;*/
+
+}
+.caitlin {
+	background: url("../images/caitlin.JPG");
+	margin: 0 auto;
+	width: 80%;
+	height: 800px;
+	background-size: cover;
+	border-top: 5px solid #AFAFAC;
+	/*border-bottom: 5px solid #AFAFAC;*/
+}
+.chiara {
+	background: url("../images/chiara.PNG");
+	margin: 0 auto;
+	width: 80%;
+	height: 800px;
+	background-size: cover;
+	border-top: 5px solid #AFAFAC;
+	/*border-bottom: 5px solid #AFAFAC;*/
+	background-position: center;
+}
+.brittney {
+	background: url("../images/britt.JPG");
+	margin: 0 auto;
+	width: 80%;
+	height: 800px;
+	background-size: cover;
+	border-top: 5px solid #AFAFAC;
+	/*border-bottom: 5px solid #AFAFAC;*/
+}
+.natalie {
+	background: url("../images/natalie.JPG");
+	margin: 0 auto;
+	width: 80%;
+	height: 800px;
+	background-size: cover;
+	border-top: 5px solid #AFAFAC;
+	/*border-bottom: 5px solid #AFAFAC;*/
+}
+.kelsey {
+	background: url("../images/kelsey.JPG");
+	margin: 0 auto;
+	width: 80%;
+	height: 800px;
+	background-size: cover;
+	border-top: 5px solid #AFAFAC;
+	border-bottom: 5px solid #AFAFAC;
+}
+
+
 /* Clear fix hack */
 .clearfix:after {
-     content: ".";
+     content: "";
      display: block;
      clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
+     
