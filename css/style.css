@@ -45,6 +45,7 @@ h3 {
 	height: 800px;
 	background-size: cover;
 	border-top: 5px solid #AFAFAC;
+	background-position: bottom;
 	/*border-bottom: 5px solid #AFAFAC;*/
 
 }
@@ -95,6 +96,60 @@ h3 {
 	border-bottom: 5px solid #AFAFAC;
 }
 
+/*GROOMSMEN*/
+.groomsmen {
+	color: white;
+	text-align: center;
+}
+.raph {
+	background: url("../images/raph.jpg");
+	margin: 0 auto;
+	width: 80%;
+	height: 800px;
+	background-size: cover;
+	border-top: 5px solid #AFAFAC;
+}
+.david {
+	background: url("../images/erica.JPG");
+	margin: 0 auto;
+	width: 80%;
+	height: 800px;
+	background-size: cover;
+	border-top: 5px solid #AFAFAC;
+}
+.chris {
+	background: url("../images/chris1.jpg");
+	margin: 0 auto;
+	width: 80%;
+	height: 800px;
+	background-size: cover;
+	border-top: 5px solid #AFAFAC;
+}
+.mike {
+	background: url("../images/mike.jpg");
+	margin: 0 auto;
+	width: 80%;
+	height: 800px;
+	background-size: cover;
+	background-position: center;
+	border-top: 5px solid #AFAFAC;
+}
+.travis {
+	background: url("../images/trav1.jpg");
+	margin: 0 auto;
+	width: 80%;
+	height: 800px;
+	background-size: cover;
+	border-top: 5px solid #AFAFAC;
+}
+.anthony {
+	background: url("../images/anthony.jpg");
+	margin: 0 auto;
+	width: 80%;
+	height: 800px;
+	background-size: cover;
+	border-top: 5px solid #AFAFAC;
+}
 
 /* Clear fix hack */
 .clearfix:after {
