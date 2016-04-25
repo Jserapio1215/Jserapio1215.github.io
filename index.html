@@ -2,27 +2,44 @@
 <html>
 <head>
 	<title>Heather and Jon Get Married!</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
 	<link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
 </head>
 <body>
 	<header>
-		<h1><a href="index.html">Mr. & Mrs.</a></h1>
-		<ul>
-			<li><a href="*">Our Story</a></li>
-			<li><a href="bridesmaids.html">Bridesmaids</a></li>
-			<li><a href="groomsmen.html">Groomsmen</a></li>
-			<li><a href="*">Registry</a></li>
-		</ul>
+		<nav class="navbar" role="navigation">
+		    <div class="container-fluid">
+		      <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+				<h1 class="mrms"><a href="index.html">Mr. & Mrs.</a></h1>
+			  </div>
+			<div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
+				<ul>
+					<li><a href="ourstory.html">Our Story</a></li>
+					<li><a href="bridesmaids.html">Bridesmaids</a></li>
+					<li><a href="groomsmen.html">Groomsmen</a></li>
+					<li><a href="*">Registry</a></li>
+					<li><a href="venue.html">Venue</a></li>
+				</ul>
+			</div>
+		</nav>
 	</header>
-	<div class="chambers">
-		<img src="images/bridge.jpg">
-	</div>
-	<footer>
+		<div class="chambers">
+			<img src="images/bridge.jpg">
+		</div>
+	<footer class="bottom">
 		<h2>Heather and Jon</h2>
 		<h4>October 22nd, 2016 in Tacoma, WA</h4>
-		<p>Please RSVP <a href="*">Here!</a></p>
+		<p>Please RSVP <a href="http://heatherandjon2016.rsvpify.com" target="blank">Here!</a></p>
 	</footer>
-
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

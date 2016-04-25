@@ -2,64 +2,94 @@
 <html>
 <head>
 	<title>Heather and Jon Get Married!</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
 	<link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
 </head>
 <body>
 	<header>
-		<h1><a href="index.html">Mr. & Mrs.</a></h1>
-		<ul>
-			<li><a href="*">Our Story</a></li>
-			<li><a href="bridesmaids.html">Bridesmaids</a></li>
-			<li><a href="groomsmen.html">Groomsmen</a></li>
-			<li><a href="*">Registry</a></li>
-		</ul>
+		<nav class="navbar" role="navigation">
+		    <div class="container-fluid">
+		      <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+				<h1 class="mrms"><a href="index.html">Mr. & Mrs.</a></h1>
+			  </div>
+			<div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
+				<ul>
+					<li><a href="ourstory.html">Our Story</a></li>
+					<li><a href="bridesmaids.html">Bridesmaids</a></li>
+					<li><a href="groomsmen.html">Groomsmen</a></li>
+					<li><a href="*">Registry</a></li>
+					<li><a href="venue.html">Venue</a></li>
+				</ul>
+			</div>
+		</nav>
 	</header>
 	<div>
-		<h2>Groomsmen</h2>
+		<h2 class="toppage">Groomsmen</h2>
 	</div>
-	<container class="groomsmen">
+	<div class="container">
 		<div class="raph">
 			<div class="groom_text">
-				<h3>Raphael</h3>
-				<p>Raphael is the Best Man</p>
+				<h3>Raphael<br>Best Man</h3>
+				<h4 id="clickme">Bio+</h4>
+				<p class="summary">Raphael is the Best Man</p>
+				<img src="images/raph.jpg" alt="raph">
 			</div>
 		</div>
 		<div class="david">
 			<div class="groom_text">
 				<h3>David</h3>
-				<p>He is a groomsmen</p>
+				<h4 id="clickme_2">Bio+</h4>
+				<p class="summary_2">He is a groomsmen</p>
+				<img src="images/dave3.JPG" align="dave">
 			</div>
 		</div>
 		<div class="chris">
 			<div class="groom_text">
 				<h3>Chris</h3>
-				<p>He is a groomsmen</p>
+				<h4 id="clickme_3">Bio+</h4>
+				<p class="summary_3">He is a groomsmen</p>
+				<img src="images/chris1.jpg" alt="chris">
 			</div>
 		</div>
 		<div class="mike">
 			<div class="groom_text">
 				<h3>Mike</h3>
-				<p>He is a groomsmen</p>
+				<h4 id="clickme_4">Bio+</h4>
+				<p class="summary_4">He is a groomsmen</p>
+				<img src="images/mike1.jpg" alt="mike">
 			</div>
 		</div>
 		<div class="travis">
 			<div class="groom_text">
 				<h3>Travis</h3>
-				<p>He is a groomsmen</p>
+				<h4 id="clickme_5">Bio+</h4>
+				<p class="summary_5">He is a groomsmen</p>
+				<img src="images/trav1.jpg" alt="travis">
 			</div>
 		</div>
 		<div class="anthony">
 			<div class="groom_text">
 				<h3>Anthony</h3>
-				<p>He is a groomsmen</p>
+				<h4 id="clickme_6">Bio+</h4>
+				<p class="summary_6">He is a groomsmen</p>
+				<img src="images/anthony.jpg" alt="anthony">
 			</div>
 		</div>
-	</container>
-	<footer>
+	</div>
+	<footer class="bottom">
 		<h4>October 22nd, 2016 in Tacoma, WA</h4>
-		<p>Please RSVP <a href="*">Here!</a></p>
+		<p>Please RSVP <a href="http://heatherandjon2016.rsvpify.com" target="blank">Here!</a></p>
 	</footer>
-
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
 </body>
 </html>
