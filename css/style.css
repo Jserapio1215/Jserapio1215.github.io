@@ -10,11 +10,14 @@ body {
 	text-align: center;
 	font-family: 'Great Vibes', cursive;
 	font-size: 25px;
+	max-width: 900px;
+	margin: 0 auto;
 }
 
 .toppage {
 	font-size: 40px;
 	text-decoration: underline;
+	font-family: 'PT Serif', serif;
 	/*border-bottom: 1px solid black;*/
 }
 .container {
@@ -41,14 +44,13 @@ li {
 	display: inline-block;
   	padding-right: 10px;
   	font-size: 30px;
-}
+ }
 a {
 	text-decoration: none;
 	color: black;	
 }
 img {
-	width: 700px;
-	height: 500px;
+	width: 100%;
 	border: 1px solid black;
 	padding: 2px;
 }
@@ -58,6 +60,7 @@ img {
 }
 .bottom h4 {
 	font-size: 30px;
+	padding-top: 10px;
 }
 .bottom p {
 	font-family: 'PT Serif', serif;
@@ -79,8 +82,9 @@ img {
 	font-size: 18px;
 }
 .college {
-	width: 300px;
+	width: 380px;
 }
+
 
 
 /*bridesmaids*/
@@ -94,6 +98,8 @@ img {
 }
 .bride_text h4 {
 	font-weight: 600;
+	font-size: 15px;
+	font-family: 'PT Serif', serif;
 }
 
 /*GROOMSMEN*/
@@ -108,8 +114,49 @@ img {
 }
 .groom_text h4 {
 	font-weight: 800;
+	font-size: 15px;
+	font-family: 'PT Serif', serif;
 }
 
+/*Registry*/
+.ring {
+	float: left;
+	width: 60%;
+	text-align: center;
+}
+
+.chambers img {
+	max-width: 500px;
+}
+.gifts {
+	float: left;
+	width: 40%;
+	font-size: 35px;
+	text-align: center;
+}
+.intro p {
+	font-family: 'PT Serif', serif;
+	font-size: 30px;
+}
+.macy, .fundme, .target {
+	font-family: 'PT Serif', serif;
+	padding: 10px;
+	border: 1px solid #FEFFF5;
+	border-radius: 5px;
+	margin-bottom: 5px;
+}
+.macy a, .fundme a, .target a {
+	color: white;
+}
+.macy {
+	background-color: #c00;
+}
+.target {
+	background-color: #fc4f2d;
+}
+.fundme {
+	background-color: #2a6496;
+}
 /*Venue*/
 .venue h3 {
 	font-size: 30px;
@@ -125,10 +172,73 @@ img {
 }
 .map {
 	width: 650px;
+	margin: 0 auto;
 }
 /* Clear fix hack */
 .clearfix:after {
      content: "";
      display: block;
      clear: both;
+ }
      
+@media screen and (max-width: 768px) {
+
+.toppage {
+	font-size: 1.5em;
+}
+.li {
+	font-size: 1.5em;
+}
+
+/*header style*/
+.mrms {
+	font-size: 1.5em;
+}
+
+/*our story*/
+.stadium p {
+	font-size: 1em;
+}
+/*bridesmaids*/
+h2.toppage {
+	font-size: 1em;
+}
+
+/*registry*/
+.chambers h2 {
+	font-size: 1em;
+}
+.ring {
+	float: none;
+	width: 95%;
+	margin:0 auto;
+	text-align: center;
+}
+.intro p {
+	font-size: .8em;
+}
+.chambers img {
+	max-width: 500px;
+}
+.gifts {
+	float: none;
+	width: 95%;
+	margin: 0 auto;
+	font-size: 1em;
+	text-align: center;
+}
+.macy, .fundme, .target {
+	width: 60%;
+	margin: 0 auto;
+}
+
+/*venue*/
+.venue h2 {
+	font-size: 1em;
+}
+.bottom h2 {
+	font-size: 1em;
+}
+.bottom h4 {
+	font-size: .9em;
+}
